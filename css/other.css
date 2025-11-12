@@ -1,0 +1,118 @@
+/* 网页大小 */
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+
+
+/* 网页头部 */
+.header {
+  height: 20vh;
+  left: 0px;
+  /* 内边距 */
+  padding: 20px;
+  /* 背景颜色 */
+  background-color: #fff;
+}
+
+.lianjie {
+  letter-spacing: 10px;
+}
+
+.lianjie a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.lianjie a:hover {
+  color: red;
+}
+
+
+
+/* 主体部分 */
+
+/* logo */
+.main {
+  width: 700px;
+  height: 70vh;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.logo img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+
+}
+
+/* 搜索栏 */
+
+
+/* 搜索栏盒子 */
+.main .search {
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+/* 输入框 */
+.text {
+  width: 84%;
+  height: 60px;
+  float: left;
+  border-radius: 30px 0 0 30px;
+  background-color: white;
+}
+
+.text textarea {
+  width: 60%;
+  float: left;
+  margin-left: 25px;
+  font-size: 20px;
+  line-height: 60px;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+/* 搜索按钮 */
+.botton {
+  width: 16%;
+  height: 60px;
+  float: left;
+  border-radius: 0 30px 30px 0;
+  background-color: #1d47b1;
+}
+
+.botton:hover {
+  background-color: #002FA7;
+}
+
+.botton p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+
+/* 网页底部 */
+.footer {
+  height: 20vh;
+  width: 70%;
+  margin: 0 auto;
+  /* 背景颜色 */
+  background-color: #fff;
+}
